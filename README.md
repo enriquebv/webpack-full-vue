@@ -6,3 +6,4 @@ A full webpack config to use Vue.
 - [ ] Dev mode & productio mode.
 - [ ] SASS (SCSS).
 - [ ] SFC Compiler.
+- [ ] HMR.
