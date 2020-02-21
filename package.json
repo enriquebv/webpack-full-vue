@@ -1,0 +1,24 @@
+{
+  "name": "webpack-full-vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/enriquebv/webpack-full-vue.git",
+  "author": "Enrique Bernabeu <ebvcontacto@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "inspect": "node-nightly --inspect ./node_modules/webpack/bin/webpack.js",
+    "dev": "webpack",
+    "build": "webpack --build"
+  },
+  "dependencies": {
+    "node-nightly": "^1.7.3",
+    "vue": "^2.6.11",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "node-inspect": "^1.11.6"
+  }
+}

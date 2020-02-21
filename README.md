@@ -2,9 +2,12 @@
 A full webpack config to use Vue.
 
 # Todo
-- [ ] Clean config file.
-- [ ] Dev mode & production mode.
-- [ ] Babel (ES6).
+- [x] Dev mode & production mode.
+- [x] ES6.
+- [x] Source-maps.
+- [x] Cache busting.
+- [x] Nuke output dir.
+- [ ] Babel.
 - [ ] SASS (SCSS).
-- [ ] SFC Compiler.
+- [ ] Vue SFC Compiler.
 - [ ] HMR.
